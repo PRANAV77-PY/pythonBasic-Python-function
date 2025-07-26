@@ -1,0 +1,11 @@
+def to_fahrenheit(c):
+    return ( c * 9/5) + 32
+
+print(to_fahrenheit(0))
+
+#practice
+
+def to_fahrenheit(a):
+    return (a * 9/5) + 32
+
+print(to_fahrenheit(1))
