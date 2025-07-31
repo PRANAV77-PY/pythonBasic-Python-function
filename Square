@@ -1,0 +1,22 @@
+import math
+
+def Square(Side_length):
+    if Side_length < 1:
+        return "result only positive number"
+
+    #calculate area and perimeter
+    area = Side_length ** 2
+
+    perimeter = 4 * Side_length
+
+    return area ,perimeter
+
+
+#Example
+s = 6
+a,p = Square(s)
+print(f"side length:{s}")
+print(f"AREA:{a}")
+print(f"Peimeter:{p}")
+      
+      
